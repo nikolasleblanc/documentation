@@ -620,7 +620,7 @@
       - repo_name: security-monitoring
         contents:
         - action: security-rules
-          branch: main
+          branch: nbeckstead/beta-tag
           globs:
             # old
             - "configuration/*.json"

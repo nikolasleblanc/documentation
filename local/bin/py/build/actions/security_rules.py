@@ -129,7 +129,8 @@ def security_rules(content, content_dir):
                     f"/security_monitoring/default_rules/{p.stem}"
                 ],
                 "rule_category": [],
-                "integration_id": ""
+                "integration_id": "",
+                "is_beta": data.get("isBeta", "false")
             }
 
             # we need to get the path relative to the repo root for comparisons
